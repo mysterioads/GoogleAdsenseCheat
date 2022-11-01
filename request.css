@@ -622,11 +622,12 @@ body{
     padding: 0;
   }
   img{
-    width: 3vw;
+    width: 33px;
   }
   .bitcoinLogo{
     display: flex;
     align-items: center;
+    width:33px ;
   }
   label{
     display: block;
@@ -649,41 +650,42 @@ body{
     color: green;
   }
   .withdrawalContainer >  div:nth-child(3) >input{
-    width: 50%;
-    height: 15%;
+    width: 160px;
+    height: 25px;
     border-radius: 5%;
     border: none;
   }
   .withdrawalContainer > div:first-child{
-    font-size: 150%;
+    font-size: 22px;
     font-weight: 900;
   }
   .withdrawalContainer > div:nth-child(2){
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    font-size: 150%;
-    height: 10%;
+    font-size: 15px;
+    height: 25vh;
   }
   .withdrawalContainer > div:nth-child(3){
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    height: 30%;
-    font-size: 150%;
+    height: 35vh;
+    font-size: 15px;
   }
   .withdrawalContainer > div:nth-child(4){
     display: flex;
     flex-direction: column;
-    height: 30%;
+    height: 35vh;
     justify-content: space-around;
-    font-size: 150%;
+    font-size: 15px;
     color: gold;
   }
   .withdrawalContainer > div:nth-child(4) > button{
-    width: 30%;
-    height: 15%;
+    width: 120px;
+    height: 30px;
     border-radius: 8%;
+    border: none;
   }
   .withdrawalContainer > div{
     margin-left: 2vw;
